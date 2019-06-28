@@ -39,7 +39,7 @@ public interface ClassGenerator {
 
     void generate(File baseDir, DirectoryScanner ds, FileFilter filter) throws IOException;
 
-    public void generate(File baseDir, DirectoryScanner ds) throws IOException;
+    void generate(File baseDir, DirectoryScanner ds) throws IOException;
 
     void generate(File propertyFile, String relPath) throws IOException;
 
